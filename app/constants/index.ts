@@ -26,7 +26,14 @@ const noChangeParts = [
   "Object_10",
 ];
 
-const performanceImages = [
+const performanceImages: {
+  id: string;
+  src: string;
+  left?: string;
+  right?: string;
+  bottom?: string;
+  transform?: string;
+}[] = [
   { id: "p1", src: "/performance1.png" },
   { id: "p2", src: "/performance2.png" },
   { id: "p3", src: "/performance3.png" },

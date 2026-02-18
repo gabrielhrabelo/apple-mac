@@ -1,4 +1,4 @@
-import Features from "./components/Features";
+
 import Hero from "./components/Hero";
 import Highlights from "./components/Highlights";
 import Navbar from "./components/Navbar";
@@ -16,8 +16,7 @@ export default function App() {
       <Hero />
       <ProductViewer />
       <Performance />
-      {/*<Features />*/}
-      {/*<Highlights />*/}
+      <Highlights />
     </main>
   );
 }
